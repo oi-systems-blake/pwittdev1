@@ -1,0 +1,95 @@
+.emp-detail-page {
+    background-color: #b3b3b3;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.page-container {
+    width: 80%;
+    height: auto;
+    display: inline-flex;
+    flex-direction: row;
+    gap: 80px;
+    
+}
+
+.profile-card {
+max-width: 15%;
+min-width: 200px;
+height: 400px;
+border-radius: 5px;
+background-color: white;
+margin-top: 100px;
+
+}
+
+.profile-card-header {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    height: 50px;
+    border-bottom: 1px solid black;
+    
+}
+.Profile-card-row {
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 7px;
+   
+}
+
+.timesheet {
+    width: 60%;
+    margin-top: 100px;
+   
+   
+
+}
+
+.record {
+    height: 70px;
+    border-color: none;
+    background-color: white;
+    border: 1px solid rgb(182, 177, 187);
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    min-width: 300px;
+    
+    
+}
+
+.date-box {
+    background-color: rgb(168, 168, 168);
+    width: 20%;
+    min-width: 80px;
+    justify-content: left;
+    text-align: center;
+    
+   
+}
+
+.hours-box {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.header-bar {
+    background-color: white;
+    border-radius: 5px 5px 0 0;
+    height: 45px;
+    text-align: center;
+}
+
+.footer-bar {
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+    height: 35px;
+    
+}
+
+.sheet-totals {
+   
+}

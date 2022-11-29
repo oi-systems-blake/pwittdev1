@@ -1,0 +1,29 @@
+.modal-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-container{
+position: relative;
+padding: 32px;
+width: 65%;
+height: 65%;
+background-color: gray;
+font-size: larger;
+}
+
+.modal-container-content {
+    padding-top: 17%;
+}
+
+
+.modal-text{
+    font-size: 40px;
+}

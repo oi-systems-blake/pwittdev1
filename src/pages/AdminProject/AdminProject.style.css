@@ -1,0 +1,72 @@
+.project-page {
+    background-color: #b3b3b3;
+    min-height: 100vh;
+    display: flex;
+    
+}
+
+.project-row.header {
+    background-color: white;
+    border: 0;
+    font-size: large;
+    border-bottom: 2px solid gray;
+    padding-left: 10px;
+}
+
+
+.project-container {
+    background-color: white;
+    min-width: 72%;
+    max-width:85%;
+    margin: 10% auto;
+    border-radius: 12px;
+
+}
+
+.project-row {
+    display: inline-flex;
+    padding: 4px 0;
+    width: 100%;
+    margin: 10px 0;
+    border-bottom: 1px dotted black
+}
+
+.project-row-project-name {
+    text-align: left;
+    white-space: nowrap;
+    text-overflow: clip;
+    flex: 0 1 auto;
+    width: 65%;
+    padding-left: 10px;
+}
+
+
+
+.project-row-right {
+    text-align: center;
+    width: 35%;
+    white-space: nowrap;
+    text-overflow: clip;
+
+
+}
+
+.project-row-status {
+
+    flex: 0 1 100%;
+    float: left;
+
+}
+
+.project-row-hours {
+    flex: 0 1 100%;
+    float: right;
+    padding-right: 10px;
+}
+
+.search-projects {
+    height: 30px;
+    position: relative;
+    top: 20px;
+    left: 200px;
+}

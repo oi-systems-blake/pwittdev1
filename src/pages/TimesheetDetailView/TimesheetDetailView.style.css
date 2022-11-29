@@ -1,0 +1,133 @@
+.tsdv-page {
+    min-height: 100vh;
+    display: flex;
+    background-color: #b3b3b3;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.main-cont {
+    flex-direction: column;
+    width: 65%;
+    height: auto;
+    
+    
+}
+
+.dt-b {
+    height: auto;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+}
+
+
+
+.tsdv-h, .tsdv-r, .tse-r, .tse-h {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 5px 5px 5px black;
+    
+    
+}
+
+.tsdv-h {
+    border-radius: 5px 5px 0 0;
+    min-height: 35px;
+    max-height: fit-content;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.tse-h {
+    border-radius: 5px 5px 0 0;
+    min-height: 35px;
+    max-height: fit-content;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 1rem;
+    padding-right: 2.6rem;
+}
+
+.tsdv-r, .tse-r {
+    height: 50px;
+    align-items: center;
+    text-align: left;
+    border-top: 1px solid black;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+.ts-h-lab, .ts-val {
+    width: fill;
+    text-align: center;
+    
+}
+
+.tse-h-lab {
+    width: fill;
+    text-align: center;
+    
+}
+
+
+.tse-val {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+    width: fill;
+    padding-right: 1rem;
+    
+}
+
+.tsdv-eb, .tsdv-wvb, .tsdv-aeb {
+    background-color: rgba(245,202,70,1);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    width: auto;
+    height: 30px;
+    color: white;
+    float: right;
+}
+
+.tsdv-eb, .tsdv-aeb {
+    margin-bottom: 10px;
+}
+.tsdv-eb {
+    height: 32px;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    font-size: 14px;
+}
+
+.tsdv-wvb {
+    margin-top: 10px;
+}
+ 
+.tsdv-wvb:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.tsdv-eb:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.delete-button {
+    font-size: x-small;  
+}
+

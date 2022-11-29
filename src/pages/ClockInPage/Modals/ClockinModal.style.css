@@ -1,0 +1,52 @@
+.clockin-modal-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clockin-modal-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+width: 65%;
+height: 65%;
+background-color: gray;
+
+}
+
+
+.clockin-modal-text{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.clockin-modal-text-mobile{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+@media (width <= 520px) {
+    .clockin-modal-text-mobile {
+      display: initial;
+    }
+    .clockin-modal-text {
+      display: none;
+    }
+  }
+  
+  @media (width >= 520px) {
+    .clockin-modal-text {
+      display: initial;
+    }
+    .clockin-modal-text-mobile {
+      display: none;
+    }
+  }

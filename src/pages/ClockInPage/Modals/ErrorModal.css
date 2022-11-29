@@ -1,0 +1,54 @@
+.error-modal-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error-modal-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+width: 65%;
+height: 65%;
+background-color: gray;
+
+}
+
+
+.error-modal-text{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
+
+.error-modal-text-mobile {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+
+@media (width <= 520px) {
+    .error-modal-text-mobile {
+      display: initial;
+    }
+    .error-modal-text {
+      display: none;
+    }
+  }
+  
+  @media (width >= 520px) {
+    .error-modal-text {
+      display: initial;
+    }
+    .error-modal-text-mobile {
+      display: none;
+    }
+  }

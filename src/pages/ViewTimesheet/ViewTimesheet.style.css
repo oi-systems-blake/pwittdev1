@@ -1,0 +1,99 @@
+.view-ts-page {
+background-color: #b3b3b3;
+height: 100vh;
+padding-top: 60px;
+}
+
+.vts-cont {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+    
+}
+
+.vts-d-b {
+    height: fit-content;
+    width: 65%;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 5px 5px 5px black;
+}
+
+.ts-cont{
+    width: 65%;
+   
+}
+
+.ts-h {
+    background-color: white;
+    border-radius: 5px 5px 0 0;
+    height: 35px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.ts-r {
+    height: fit-content;
+    border-color: none;
+    background-color: white;
+    border: 1px solid rgb(182, 177, 187);
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    box-shadow: 5px 5px 5px black;
+    
+    
+    
+}
+
+.left-b {
+    background-color: rgb(168, 168, 168);
+    width: 20%;
+    min-width: 80px;
+    justify-content: left;
+    text-align: center;
+
+}
+
+.wt-lab {
+    width: 20%;
+    min-width: 80px;
+    justify-content: left;
+    text-align: center;
+}
+
+.right-b {
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+
+.ts-f {
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+    height: 35px;
+    box-shadow: 5px 5px 5px black;
+    position: relative;
+    display: inline-flex;
+    width: 100%;
+}
+
+.month, .day {
+    margin: 0;
+    padding: 0;
+}
+
+.vt-date-button {
+     font-size: 0; 
+}
+
+.wt-val {
+    text-align: left;
+    width: auto;
+    padding-left: 10px;
+
+}
