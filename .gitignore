@@ -1,3 +1,14 @@
+amplify
+node_modules
+public
+package.json
+package-lock.json
+.graphqlconfig.yml
+Secret
+secret.js
+Secret.js
+
+
 # Logs
 logs
 *.log
